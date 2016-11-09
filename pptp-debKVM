@@ -43,7 +43,7 @@ lock
 nobsdcomp
 END
 
-# setting up pptpd.conf
+# setting-up pptpd.conf
 echo "option /etc/ppp/pptpd-options" > /etc/pptpd.conf
 echo "logwtmp" >> /etc/pptpd.conf
 echo "localip $ip" >> /etc/pptpd.conf
